@@ -181,8 +181,8 @@ Write a function called "isGreaterThan".
 
 Given 2 numbers, "isGreaterThan" returns whether num2 is greater than num1.
 
-`var output = isGreaterThan(11, 10);
-console.log(output); // --> false`
+var output = isGreaterThan(11, 10);
+console.log(output); // --> false
 
 SOLUTION:
 `function isGreaterThan(num1, num2){
@@ -193,4 +193,4 @@ SOLUTION:
     }
 }
 
-isGreaterThan(2,3);`
+isGreaterThan(2,3)`
