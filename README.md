@@ -68,13 +68,13 @@ SOLUTION:
 
 =====================================================================>
 
-`5)  isGreaterThanTen
+5)  isGreaterThanTen
 
 Write a function called "isGreaterThanTen".
 
 Given a number, "isGreaterThanTen" returns whether it is greater than 10.
 
-var output = isGreaterThanTen(11);
+`var output = isGreaterThanTen(11);
 console.log(output); // --> true`
 
 SOLUTION:
@@ -110,13 +110,13 @@ SOLUTION:
 
 =====================================================================================>
 
-`7)  isLessThan30
+7)  isLessThan30
 
 Write a function called "isLessThan30".
 
 Given a number, "isLessThan30" returns whether the given number is less than 30.
 
-var output = isLessThan30(9);
+`var output = isLessThan30(9);
 console.log(output); // --> true`
 
 SOLUTION:
@@ -175,13 +175,13 @@ SOLUTION:
 
 ==========================================================================>
 
-`10)  isGreaterThan
+10)  isGreaterThan
 
 Write a function called "isGreaterThan".
 
 Given 2 numbers, "isGreaterThan" returns whether num2 is greater than num1.
 
-var output = isGreaterThan(11, 10);
+`var output = isGreaterThan(11, 10);
 console.log(output); // --> false`
 
 SOLUTION:
