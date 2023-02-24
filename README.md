@@ -20,38 +20,38 @@ Clear all '$' signs from numbers in a given array. => [2,3,4,5,15]`
 
 `2) sayHello
 
-Create a function sayHello(). Within it, console.log string "Hello World!"
+Create a function sayHello(). Within it, console.log string "Hello World!"`
 
-SOLUTION:
+#SOLUTION:
 
- function sayHello(){
+ `function sayHello(){
     console.log('Hello World!');
  }
- sayHello();
+ sayHello();`
 
 ======================================================================>
 
 
 
-3) getFullName
+`3) getFullName
 
 Write a function called "getFullName".
 
 Given a first and a last name, "getFullName" returns a single string with the given first and last names separated by a single space.
 
 var output = getFullName('Joe', 'Smith');
-console.log(output); // --> 'Joe Smith'
+console.log(output); // --> 'Joe Smith'`
 
 
 SOLUTION: 
 
-function getFullName (firstName, lastName){
+`function getFullName (firstName, lastName){
     return firstName + " " + lastName;
-}
+}`
 
 ===================================================================================>
 
-4)  getLengthOfWord
+`4)  getLengthOfWord
 
 Write a function called "getLengthOfWord".
 
@@ -59,12 +59,12 @@ Given a word, "getLengthOfWord" returns the length of the given word.
 
 var output = getLengthOfWord('some');
 console.log(output); // --> 4
-
+`
 SOLUTION:
 
-function getLengthOfWord(word){
+`function getLengthOfWord(word){
     return word.length
-}
+}`
 
 =====================================================================>
 
@@ -74,12 +74,12 @@ Write a function called "isGreaterThanTen".
 
 Given a number, "isGreaterThanTen" returns whether it is greater than 10.
 
-var output = isGreaterThanTen(11);
-console.log(output); // --> true
+`var output = isGreaterThanTen(11);
+console.log(output); // --> true`
 
 SOLUTION:
 
-function isGreaterThanTen(num) {
+`function isGreaterThanTen(num) {
     if (num > 10) {
         return true
     } else {
@@ -87,25 +87,25 @@ function isGreaterThanTen(num) {
     }
 }
 
-isGreaterThanThen(9)
+isGreaterThanThen(9)`
 
 ====================================================================>
 
-6)  getLengthOfTwoWords
+`6)  getLengthOfTwoWords
 
 Write a function called "getLengthOfTwoWords".
 
 Given 2 words, "getLengthOfTwoWords" returns the sum of their lengths.
 
 var output = getLengthOfTwoWords('some', 'words');
-console.log(output); // --> 9
+console.log(output); // --> 9`
 
 SOLUTION:
-function getLengthOfTwoWords(word1, word2) {
+`function getLengthOfTwoWords(word1, word2) {
     return word1.length + word2.length;
     
     }
-    getLengthOfTwoWords( "some", "word")
+    getLengthOfTwoWords( "some", "word")`
     
 
 =====================================================================================>
@@ -116,11 +116,11 @@ Write a function called "isLessThan30".
 
 Given a number, "isLessThan30" returns whether the given number is less than 30.
 
-var output = isLessThan30(9);
-console.log(output); // --> true
+`var output = isLessThan30(9);
+console.log(output); // --> true`
 
 SOLUTION:
-function isLessThan30(num) {
+`function isLessThan30(num) {
     if (num < 30){
         return true
     } else {
@@ -129,49 +129,49 @@ function isLessThan30(num) {
 
 }
 
-isLessThan30(23);
+isLessThan30(23);`
 
 ==================================================================================>
 
-8)  equalsTen
+`8)  equalsTen
 
 Write a function called "equalsTen".
 
 Given a number, "equalsTen" returns whether or not the given number is 10.
 
 var output = equalsTen(9);
-console.log(output); // --> false
+console.log(output); // --> false`
 
 SOLUTION:
-function equalsTen(num) {
+`function equalsTen(num) {
     if(num == 10){
         return true
        } else {
            return false
        }
 }
- equalsTen(5);
+ equalsTen(5);`
 
 =====================================================================================>
 
-9)  isLessThan
+`9)  isLessThan
 
 Write a function called "isLessThan".
 
 Given 2 numbers, "isLessThan" returns whether num2 is less than num1.
 
 var output = isLessThan(9, 4);
-console.log(output); // --> true
+console.log(output); // --> true`
 
 SOLUTION:
-function isLessThan(num1, num2) {
+`function isLessThan(num1, num2) {
     if ( num1 > num2) {
         return true;
     } else{
         return false;
     }
   }
-  isLessThan (3,4);
+  isLessThan (3,4);`
 
 ==========================================================================>
 
@@ -185,7 +185,7 @@ var output = isGreaterThan(11, 10);
 console.log(output); // --> false
 
 SOLUTION:
-function isGreaterThan(num1, num2){
+`function isGreaterThan(num1, num2){
     if(num2 > num1){
         return true
     } else {
@@ -193,4 +193,4 @@ function isGreaterThan(num1, num2){
     }
 }
 
-isGreaterThan(2,3);`
+isGreaterThan(2,3)`
