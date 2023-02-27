@@ -88,5 +88,44 @@
 //   return sum
 //   console.log("Sum = " + sum);    
 //   }
-//   printIntaAndSum0To255()
+//   printIntaAndSum0To255();
+
+// =================================================>
+
+
+// 26) Print-Odds-1-255-notest
+
+// Using FOR loop and modulus operator, print all odd integers from 1 to 255.
+
+// output -> 1, 3, 5...
+
+// SOLUTION:
+// function printOdds1To255() {
+//     // your code here
+//     for( let i = 0; i<=255; i++){
+//     if( i%2 ===1)
+//     console.log(i)
+//     }
   
+    
+//     }
+
+// ========================================================>
+
+// Threes-and-Fives
+
+// Create threesFives() that finds values from 100 and 400 (including 400) that are divisible by either 3 or 5, but not both 3 and 5. Get the sum of those values. Display the final sum in the console.
+
+// `threesFives()`
+
+// SOLUTION:
+
+
+//   function threesFives(){
+//     for ( let i = 100; i <=400; i++){
+//       if(i%3 ===0 || i%5===0) {
+//         console.log(i)
+//       }
+//     }
+//   }
+
