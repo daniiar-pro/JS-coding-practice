@@ -129,3 +129,67 @@
 //     }
 //   }
 
+// =====================================================>
+
+// 28) modulo
+
+// Write a function called "modulo".
+
+// Given 2 numbers, "modulo" returns the remainder after dividing num1 by num2.
+
+// Extra:
+
+// Can you do without using the actual built-in modulo (aka "remainder") operator (%) in your implementation.
+// var output = modulo(25, 4);
+// console.log(output); // --> 1
+
+// SOLUTION:
+// function modulo(num1, num2) {
+//     return num1 % num2 
+    
+//   }
+  
+//   modulo(25,4);
+
+// =========================================================>
+
+// 29)  multiply
+
+// Write a function called "multiply".
+
+// Given 2 numbers, "multiply" returns their product.
+
+// Notes:
+
+// It should not use the multiply operator (*).\
+// var output = multiply(4, 7);
+// console.log(output); // --> 28
+
+// SOLUTION:
+// function multiply(a, b) {
+//     return a / (1 / b);
+//   }
+  
+//   console.log(multiply(4, 7));
+
+// =====================================================>
+
+// 30) isEven
+
+// Write a function called "isEven".
+
+// Given a number, "isEven" returns whether it is even.
+
+// var output = isEven(11);
+// console.log(output); // --> false
+
+// SOLUTION:
+// function isEven(num) {
+//     if (num % 2 ===0){
+//       return true
+//     } else{
+//       return false
+//     }
+//   }
+
+// ===================================================>
