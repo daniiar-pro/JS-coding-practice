@@ -54,4 +54,39 @@
 //     console.log(i)
 //   }
   
+//   ==========================================================>
+
+// 24)  Countdown-by-Fours-notest
+
+// Using WHILE loop, log multiples of 4 starting from 2016 to 0.
+
+// SOLUTION:
+// let result = '';
+// let i = 0;
+
+// do {
+//   i = i + 1;
+//   result = result + i;
+// } while (i < 5);
+
+// console.log(result);
+
+// ========================================================>
+
+// 25)  printIntaAndSum0To255
+
+// Using FOR loop, get a sum of all numbers from 0 to 255 (255 included). Return the sum. Inside the loop, also console.log the value of sum and see how the value is changing on every iteration.
+
+// SOLUTION:
+// function printIntaAndSum0To255() {
+//     // your code here
+//     var sum = 0;
+  
+//   for (var i = 0; i <= 255; i++) {
+//       sum = sum + i;
+//   }
+//   return sum
+//   console.log("Sum = " + sum);    
+//   }
+//   printIntaAndSum0To255()
   
