@@ -128,3 +128,77 @@
 
 // ===============================================================>
 
+// 37) isEvenAndGreaterThanTen
+
+// Write a function called "isEvenAndGreaterThanTen".
+
+// Given a number, "isEvenAndGreaterThanTen" returns whether it is both even and greater than 10.
+
+// var output = isEvenAndGreaterThanTen(13);
+// console.log(output); // --> false
+
+// SOLUTION:
+// function isEvenAndGreaterThanTen(num) {
+//     if (num % 2 === 0 && num >10){
+//       return true
+//     }else {
+//       return false
+//     }
+//   }
+//    isEvenAndGreaterThanTen(13) 
+  
+
+// ==================================================================>
+
+// 38) average
+
+// Write a function called "average".
+
+// Given two numbers, "average" returns their average.
+
+// var output = average(4, 6);
+// console.log(output); // --> 5
+
+// SOLUTION:
+// function average(num1, num2) {
+//     return (( num1 *1 + num2 * 1) / 2);
+//   }
+//   average (4, 6);
+
+// ======================================================================>
+
+// 39) computeAreaOfATriangle
+
+// Write a function called "computeAreaOfATriangle".
+
+// Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
+
+// var output = computeAreaOfATriangle(4, 6);
+// console.log(output); // --> 12
+
+// SOLUTION:
+// function computeAreaOfATriangle(base, height) {
+//     return ((base * height)/ 2)
+  
+//   }
+//   computeAreaOfATriangle(4, 6)
+  
+//   //const area = base * height / 2
+//   // return area;
+
+// ===================================================================>
+
+// 40) cube
+
+// Write a function called "cube".
+
+// Given a number, "cube" returns the cube of that number.
+
+// var output = cube(3);
+// console.log(output); // --> 27
+
+// SOLUTION:
+// function cube(num) {
+//     const result = Math.pow(num,3)
+//     return result
+//     }
