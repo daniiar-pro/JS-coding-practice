@@ -49,3 +49,60 @@
 //  computeAreaOfARectangle(4, 8);
 
 // ========================================================================>
+
+// 44) computePerimeterOfARectangle
+
+// Write a function called "computePerimeterOfARectangle".
+
+// Given a length and a width describing a rectangle, "computePerimeterOfARectangle" returns its perimter.
+
+// var output = computePerimeterOfARectangle(5, 2);
+// console.log(output); // --> 14
+
+// SOLUTION:
+// function computePerimeterOfARectangle(length, width) {
+//     const rect = length * 2 + width * 2 
+//     return rect
+//   }
+//   computePerimeterOfARectangle (5, 2)
+  
+  
+//   // const per = (length + width) * 2
+//   // return per
+
+// ================================================================>
+
+// 45) computePerimeterOfATriangle
+
+// Write a function called "computePerimeterOfATriangle".
+
+// Given 3 sides describing a triangle, "computePerimeterOfATriangle" returns its perimter.
+
+// var output = computePerimeterOfATriangle(6, 4, 10);
+// console.log(output); // --> 20
+
+// SOLUTION:
+// function computePerimeterOfATriangle(side1, side2, side3) {
+//     const perimeter =  side1 + side2 + side3;
+//     return perimeter;
+//   }
+
+// =============================================================>
+
+// 46)  computePower
+
+// Write a function called "computePower"
+
+// . Given a number and an exponent, "computePower" returns the given number, raised to the given exponent.
+
+// var output = computePower(2, 3);
+// console.log(output); // --> 8
+
+// SOLUTION:
+// function computePower(num, exponent) {
+//     const result = Math.pow(num,exponent)
+//     return result
+//   }
+//   computePower(2,3);
+
+// =========================================================================>
