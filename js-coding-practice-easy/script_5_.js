@@ -106,3 +106,82 @@
 //   computePower(2,3);
 
 // =========================================================================>
+
+// 47) computeSquareRoot
+
+// Write a function called "computeSquareRoot".
+
+// Given a number, "computeSquareRoot" returns its square root.
+
+// var output = computeSquareRoot(9);
+// console.log(output); // --> 3
+
+
+// SOLUTION:
+// function computeSquareRoot(num) {
+//     const result = Math.sqrt(num)
+//     return result
+//   }
+//   computeSquareRoot(9);
+
+// ===================================================================>
+
+// 48) getLastElement
+
+// Write a function called "getLastElement".
+
+// Given an array, "getLastElement" returns the last element of the given array. Notes:* If the given array has a length of 0, it should return 'undefined'.
+
+// var output = getLastElement([1, 2, 3, 4]);
+// console.log(output); // --> 4
+
+// SOLUTION:
+// function getLastElement(array){
+//     if(array.length === 0){
+//         return undefined
+//     }
+//     return array[array.length-1]
+// }
+
+// getLastElement([1, 2, 3, 4]);
+
+// =========================================================>
+
+// 49) addToFront
+
+// Write a function called "addToFront".
+
+// Given an array and an element, "addToFront" adds the given element to the front of the given array, and returns the given array.
+
+// Notes: * It should be the SAME array, not a new array.
+
+// var output = addToFront([1, 2], 3);
+// console.log(output); // -> [3, 1, 2];
+
+// SOLUTION:
+// function addToFront(arr, element) {
+//     arr.unshift(element) 
+//      // your code here
+//     return  arr
+//    }
+//    addToFront([1, 2], 3);
+
+// ====================================================================>
+
+// 50) addToBack
+
+// Write a function called "addToBack".
+
+// Given an array and an element, "addToBack" returns the given array with the given element added to the end.
+
+// Note: It should be the SAME array, not a new array.
+
+// var output = addToBack([1, 2], 3);
+// console.log(output); // -> [1, 2, 3]
+
+// SOLUTION:
+// function addToBack(arr, element) {
+//     // your code here
+//     arr.push(element)
+//     return arr
+//   }
