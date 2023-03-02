@@ -70,3 +70,58 @@
 // // index but not included so that's why added + 1
 
 // ==============================================================>
+
+// 54) getElementsUpTo
+
+// Write a function called "getElementsUpTo".
+
+// Given an array and a index, "getElementsUpTo", returns an array with all the elements up until, but not including, the element at the given index.
+
+// Notes:* In order to do this you should be familiar with the 'splice' method.
+
+// var output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3) 
+// console.log(output); // --> ['a', 'b', 'c']
+
+// SOLUTION:
+// function getElementsUpTo(array, n) {
+//     // your code here
+//     const result = array.splice(0,n)
+//     return result
+//   };
+
+// ======================================================================>
+
+// 55) getAllElementsButFirst
+
+// Write a function called "getAllElementsButFirst".
+
+// Given an array, "getAllElementsButFirst" returns an array with all the elements but the first.
+
+// var input = [1, 2, 3, 4];
+// var output = getAllElementsButFirst(input);
+// console.log(output); // --> [2, 3, 4]
+
+// SOLUTION:
+// function getAllElementsButFirst(array) {
+//     // your code here
+//     const res = array.slice(1)
+//     return res
+//   };
+
+// =========================================================================>
+
+// 56) getAllElementsButLast
+
+// Write a function called "getAllElementsButLast".
+
+// Given an array, "getAllElementsButLast" returns an array with all the elements but the last.
+
+// var input = [1, 2, 3, 4];
+// var output = getAllElementsButLast(input);
+// console.log(output); // --> [1, 2 , 3];
+
+// SOLUTION:
+// function getAllElementsButLast(array) {
+//     // your code here
+//     return array.slice(0,-1)
+//   };
