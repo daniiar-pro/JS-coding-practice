@@ -125,3 +125,82 @@
 //     // your code here
 //     return array.slice(0,-1)
 //   };
+
+// ==========================================================================================>
+
+// joinArrays
+
+// Write a function called "joinArrays".
+
+// Given two arrays, "joinArrays" returns an array with the elements of "arr1" in order, followed by the elements in "arr2".
+
+// var output = joinArrays([1, 2], [3, 4]);
+// console.log(output); // --> [1, 2, 3, 4]
+// You should be familiar with the "concat" method for this problem.
+
+// SOLUTION:
+// function joinArrays(arr1, arr2) {
+//     const add = arr1.concat(arr2)
+//     return add
+//   }
+//   joinArrays([1, 2], [3, 4]);
+
+// =================================================================>
+
+// 58) joinThreeArrays
+
+// Write a function called "joinThreeArrays".
+
+// Given three arrays, "joinThreeArrays" returns an array with the elements of "arr1" in order followed by the elements in "arr2" in order followed by the elements of "arr3" in order.
+
+// var output = joinThreeArrays([1, 2], [3, 4], [5, 6]);
+// console.log(output); // --> [1, 2, 3, 4, 5, 6]
+// You should be familiar with the "concat" method for this problem.
+
+// SOLUTION:
+// function joinThreeArrays(arr1, arr2, arr3) {
+//     const add = arr1.concat(arr2,arr3)
+//     return add
+//   }
+//   joinThreeArrays([1, 2], [3, 4], [5, 6]);
+
+// ============================================================>
+
+// 59) removeFromFront
+
+// Write a function called "removeFromFront".
+
+// Given an array, "removeFromFront" returns the given array with its first element removed. Notes:* You should be familiar with the method 'shift'.
+
+// var output = removeFromFront([1, 2, 3]);
+// console.log(output); // --> [2, 3]
+
+// SOLUTION:
+// function removeFromFront(arr) {
+//     // your code here
+//      arr.shift()
+//      return arr
+//   }
+//   removeFromFront([1, 2, 3]);
+
+// ===============================================================================>
+
+// 60) removeFromBackOfNew
+
+// Write a function called "removeFromBackOfNew".
+
+// Given an array, "removeFromBackOfNew" returns a new array containing all but the last element of the given array.
+
+// Notes:* You should be familiar with the 'slice' method.
+
+// var arr = [1, 2, 3];
+// var output = removeFromBackOfNew(arr);
+// console.log(output); // --> [1, 2]
+// console.log(arr); // --> [1, 2, 3];
+
+
+// SOLUTION:
+// function removeFromBackOfNew(arr) {
+//     arr.pop();
+//     return arr
+// }
