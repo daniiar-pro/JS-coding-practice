@@ -49,7 +49,7 @@
 //         } 
 //     }
 //     return result;
-// }
+// };
 
 
 // function removeElement(arr,id){
