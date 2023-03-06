@@ -51,7 +51,6 @@
 //     return result;
 // };
 
-
 // function removeElement(arr,id){
 //     const result = [];
 //     for(let i = 0; i < arr.length; i++){
@@ -60,7 +59,7 @@
 //         }
 //     }
 //     return result
-// }
+// }'
 
 // first we've iterated over our arr then check
 // if our els is not equal to el in id then
