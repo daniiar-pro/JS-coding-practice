@@ -37,30 +37,57 @@
 // console.log(output); // --> [1, 3, 1];
 
 // SOLUTION:
-
-
-// function removeElement(arr, d){
-//     const result = [];
-//     for(let i = 0; i < arr.length; i++){
-//         if(arr[i] !== d){
-//             result.push(arr[i])
-//         } else if(i === d){
-//             return [];
-//         } 
+// function getIndexOf(charAtStr, string){
+//     for(let i = 0; i < string.length; i++){
+//         if(string[i] === charAtStr) return i
 //     }
-//     return result;
+//     return -1;
+// }
+
+// getIndexOf('a',  'Daniiar')
+
+
+// function getIndexOf(char, str){
+//     return str.includes(char)
 // };
 
-// function removeElement(arr,id){
-//     const result = [];
-//     for(let i = 0; i < arr.length; i++){
-//         if(arr[i] !== id){
-//             result.push(arr[i])
-//         }
-//     }
-//     return result
-// }'
+// ======================================================================>
 
-// first we've iterated over our arr then check
-// if our els is not equal to el in id then
-// separate it to another variable
+// 64) Given 3 words, "findMinLengthOfThreeWords" returns the length of the shortest word.
+
+// var output = findMinLengthOfThreeWords('a', 'be', 'see');
+// console.log(output); // --> 1;
+
+// SOLUTION:
+// function findMinLengthOfThreeWords (word1, word2, word3){
+//     if(word1.length < word2.length && word3.length){
+//         return word1.length
+//     } else if(word2.length < word1.length && word3.length){
+//         return word2.length
+//     } else {
+//         return word3.length
+//     }
+// }
+
+// findMinLengthOfThreeWords('a', 'be', 'see')
+
+// function findMinLengthOfThreeWords(a, b , c){
+//     return Math.min(a.length, b.length, c.length);
+// }
+// ==============================================================================>
+
+// 65) findMaxLengthOfThreeWords
+
+// Write a function called "findMaxLengthOfThreeWords".
+
+// Given 3 words, "findMaxLengthOfThreeWords" returns the length of the longest word.
+
+// var output = findMaxLengthOfThreeWords('a', 'be', 'see');
+// console.log(output); // --> 3;
+
+// SOLUTION:
+// function findMaxLengthOfThreeWords(word1, word2, word3) {
+//     // your code here
+//     return Math.max(word1.length, word2.length, word3.length)
+//   };
+// ==========================================================================>
