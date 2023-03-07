@@ -91,3 +91,71 @@
 //     return Math.max(word1.length, word2.length, word3.length)
 //   };
 // ==========================================================================>
+
+// 66) filterOddLengthWords
+
+// Write a function called "filterOddLengthWords".
+
+// Given an array of string, "filterOddLengthWords" returns an array containing only the elements of the given array whose lengths are odd numbers.
+
+// var output = filterOddLengthWords(['there', 'it', 'is', 'now']);
+// console.log(output); // --> ['there', "now'];
+
+// SOLUTION:
+
+// function filterOddLengthWords(array){
+//     const odds = [];
+//     for(let i = 0; i < array.length; i++){
+//       if(array[i].length % 2 !== 0){
+//           return odds.push(array[i])
+//       } else {
+//           return [];
+//       }
+//     }
+//     return odds;
+// }
+
+// function filterOddLengthWords(array){
+//     const odds = array.filter(arr => arr.length % 2 !== 0);
+//     return odds
+// }
+
+
+// function filterOddLengthWords(array){
+//     const result = [];
+//     for(let words of array){
+//         if(words.length % 2 !== 0){
+//             result.push(words)
+//         }
+//     }
+//     return result;
+// };
+
+// ==================================================================>
+
+// 67)  filterEvenLengthWords
+
+// Write a function called "filterEvenLengthWords".
+
+// Given an array of strings, "filterEvenLengthWords" returns an array containing only the elements of the given array whose length is an even number.
+
+// var output = filterEvenLengthWords(['word', 'words', 'word', 'words']);
+// console.log(output); // --> ['word', 'word'];
+
+// SOLUTION:
+
+
+// function filterEvenLengthWords(array){
+//     const evens = [];
+//     for(let word of array){
+//         if(word.length % 2 === 0){
+//             evens.push(word)
+//         }
+//     }
+//     return evens;
+// }
+
+// function filterEvenLengthWords(array){
+//     const evens = array.filter(arr => arr.length % 2 === 0);
+//     return evens;
+// };
