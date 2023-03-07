@@ -159,3 +159,79 @@
 //     const evens = array.filter(arr => arr.length % 2 === 0);
 //     return evens;
 // };
+
+// ================================================================>
+
+// 68) getLengthOfLongestElement
+
+// Write a function called "getLengthOfLongestElement".
+
+// Given an array, "getLengthOfLongestElement" returns the length of the longest string in the given array.
+
+// Notes:
+
+// It should return 0 if the array is empty.
+// var output = getLengthOfLongestElement(['one', 'two', 'three']);
+// console.log(output); // --> 5
+
+// SOLUTION:
+// function getLengthOfLongestElement(array){
+//     let longest = array[0].length;
+//     for(let i = 1; i < array.length; i++){
+//         if(array[i].length > longest){
+//             longest = array[i].length
+//         }
+//     }
+//     return longest;
+//    }
+   // ["ther","it","is","now"];
+
+//    ==============================================================================>
+
+// 69) countCharacter
+
+// Write a function called "countCharacter".
+
+// Given a string input and a character, "countCharacter" returns the number of occurrences of a given character in the given string.
+
+// var output = countCharacter('I am a hacker', 'a');
+// console.log(output); // --> 3
+
+// SOLUTION:
+// function countCharacter(str, char) {
+//   // your code here
+//   let split = str.split('')
+//   let result = []
+//   for(let i = 0; i< split.length; i++){
+//     if(split[i]===char){
+//       result.push(split[i])
+//     }
+//   }
+//   return result.length
+// }
+
+// function countCharacter(str, char){
+//     let counter = 0;
+//     for(let i = 0; i < str.length; i++){
+//         if(str[i] === char){
+//             counter++
+//         }
+//     }
+//     return counter;
+// };
+
+// =====================================================================>
+
+// 70)  getAllLetters
+
+// Write a function called "getAllLetters".
+
+// Given a word, "getAllLetters" returns an array containing every character in the word. Notes:* If given an empty string, it should return an empty array.
+
+// var output = getAllLetters('Radagast');
+// console.log(output); // --> ['R', 'a', 'd', 'a', 'g', 'a', 's', 't']
+
+// SOLUTION:
+// function getAllLetters(str){
+//     return str.split('')
+// }
