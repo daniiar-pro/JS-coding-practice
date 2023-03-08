@@ -138,4 +138,82 @@
 // function fahrenheitToCelsius(fDegrees) {
 //     return Math.round((fDegrees -32) * 5/9)
 // }
-// (90°F − 32) × 5/9 = 32.222°C
+// (90°F − 32) × 5/9 = 32.222°C;
+
+// ===========================================================================>
+
+// 77) Create celsiusToFahrenheit(cDegrees) that accepts number of degrees Celsius, and returns the equivalent temperature expressed in Fahrenheit degrees.
+
+// `celsiusToFahrenheit(27) // 80`
+
+// SOLUTION:
+// function celsiusToFahrenheit(cDegrees){
+//     const frnt = Math.floor((cDegrees * 9/5) + 32 );
+//     return frnt
+//   }
+  // (27°C × 9/5) + 32 = 80.6°F;
+
+//   ========================================================================>
+
+// 78) Write a function called "makeitBig".
+
+// Given an array, write a function that changes all positive numbers in the array to "big".
+// `makeitBig([-1,3,5,-5]) // [-1, "big","big",-5]`
+
+// SOLUTION:
+
+
+// function makeitBig(array){
+//     const big = array.map((arr) => {
+//         if(arr > 0){
+//             return arr = 'big'
+//         }  else {
+//             return arr
+//         }
+//     })
+//     return big
+// }
+
+
+// function makeitBig(arr){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] > 0){
+//             arr[i] = 'big'
+//         } else {
+//             arr[i] = arr[i]
+//         }
+//     }
+//     return arr;
+// }
+
+
+// ============================================================>
+
+// 79) Write a function called "double".
+
+// Given array, create a function to return a new array where each value in the original has been doubled. Calling double([1,2,3]) should return [2, 4, 6] without changing original.
+
+// `double([1,2,3]) // [2, 4, 6]`
+
+// SOLUTION:
+// function double(arr){
+//     const d = arr.map(ar => ar * 2);
+//     return d;
+// }
+
+// =========================================================>
+
+// 80) You are passed an array containing string, Working within that same array, replace each string with a number - the length of the string previous array index - and return the array 'k
+
+// `prevLen(['av','s','asdb','adfgb']) // [5,2,1,4`
+
+// SOLUTION:
+// function prevLen(arr){
+//     let res = [arr[arr.length - 1].length];
+
+//     for(let i = 0; i < arr.length-1; i++){
+//         res.push(arr[i].length);
+//     }
+//     return res;
+// }
+  // your code here
