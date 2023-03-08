@@ -56,3 +56,86 @@
 // };
 
 // ===============================================================>
+
+// 74) Write a function called "isEitherEvenOrAreBoth7".
+
+// Given two numbers, 'isEitherEvenOrAreBoth7' returns true if at least one of the parameters is even, or, both of them are equal to 7.
+
+// var output = isEitherEvenOrAreBoth7(3, 7);
+// console.log(output); // --> false
+// var output = isEitherEvenOrAreBoth7(2, 3);
+// console.log(output); // --> true
+
+// SOLUTION:
+// function isEitherEvenOrAreBoth7(num1, num2) {
+// if(num1 === 7 && num2 === 7){
+//   return true
+// } else if((num1 % 2==0) || (num2 % 2==0)){
+//   return true
+// } else{
+//   return false
+// }
+
+// }
+
+// function isEitherEvenOrAreBoth7(num1, num2){
+//   if((num1 % 2 === 0 || num2 % 2 === 0) || (num1 === 7 && num2 === 7) ){
+//     return true
+//   } else  {
+//   return false
+//   }
+// }
+
+// function isEitherEvenOrAreBoth7(num1,num2){
+//     if(num1  % 2 === 0 || num2 % 2=== 0){
+//         return true
+//       } else  if (num1 === 7 && num2=== 7){
+//         return true
+//      } else {
+//          return false;
+//      }
+// }
+
+// function isEitherEvenOrAreBoth7(num1, num2){
+//     if((num1 % 2 === 0 || num2 % 2 === 0) || (num1 ===7 && num2  === 7)){
+//         return true
+//      } else{
+//          return false
+//      }
+// };
+
+// ============================================================>
+
+// 75) Write a function called "isEitherEvenAndLessThan9".
+
+// Given two numbers, 'isEitherEvenAndLessThan9' returns true if at least one of them is even, and, both of them are less than 9.
+
+// var output = isEitherEvenAndLessThan9(2, 4);
+// console.log(output); // --> true
+// var output = isEitherEvenAndLessThan9(72, 2);
+// console.log(output); // --> false
+
+// SOLUTION:
+// function isEitherEvenAndLessThan9(num1, num2) {
+//     if((num1 % 2 === 0 || num2 % 2=== 0) || (num1 < 9 && num2 < 9)){
+//         return true;
+//     } else{
+//         return false;
+//     }
+//   };
+
+// =================================================================>
+
+// 76) Kelvin wants to convert between temperature scales.
+
+// Create fahrenheitToCelsius(fDegrees) that accepts a number of degrees in Fahrenheit, and returns the equivalent temperature as expressed in Celsius degrees.
+
+// Notes:* Fahrenheit = (9/5 * Celsius) + 32.
+
+// `fahrenheitToCelsius(90) // 32`
+
+// SOLUTION:
+// function fahrenheitToCelsius(fDegrees) {
+//     return Math.round((fDegrees -32) * 5/9)
+// }
+// (90°F − 32) × 5/9 = 32.222°C
