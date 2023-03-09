@@ -138,3 +138,80 @@
 // function getProperty(obj,key){
 //     return obj.hasOwnProperty(key) ? obj[key] : undefined;
 // };
+
+// ==============================================================================>
+
+// 87) addProperty
+
+// Write a function called "addProperty".
+
+// Given an object, and a key, "addProperty" sets a new property on the given object with a value of true.
+
+// var myObj = {};
+// addProperty(myObj, 'myProperty');
+// console.log(myObj.myProperty); // --> true
+
+// SOLUTION:
+//  function addProperty(obj,key){
+//     obj[key] = true;
+//     return obj
+//  }
+
+// ============================================================================>
+
+// 88) removeProperty
+
+// Write a function called "removeProperty".
+
+// Given an object and a key, "removeProperty" removes the given key from the given object.
+
+// var obj = {
+//   name: 'Sam',
+//   age: 20
+// }
+// removeProperty(obj, 'name');
+// console.log([obj.name](http://obj.name/)); // --> undefined;
+
+// SOLUTION:
+// function removeProperty(obj, key) {
+//     delete obj[key];
+//     return obj
+//   };
+
+// ==================================================================>
+
+// 89) getLengthOfThreeWords
+
+// Write a function called "getLengthOfThreeWords".
+
+// Given 3 words, "getLengthOfThreeWords" returns the sum of their lengths.
+
+// var output = getLengthOfThreeWords('some', 'other', 'words');
+// console.log(output); // --> 14
+
+// SOLUTION:
+// function getLengthOfThreeWords(a, b, c){
+//     const len =  a.length + b.length + c.length;
+//     return len
+// };
+
+// =============================================================================>
+
+// 90) addFullNameProperty
+
+// Write a function called "addFullNameProperty".
+
+// Given an object that has a "firstName" property and a "lastName" property, "addFullNameProperty" returns a "fullName" property whose value is a string with the first name and last name separated by a space.
+
+// var person = {
+//   firstName: 'Jade',
+//   lastName: 'Smith'
+// };
+// addFullNameProperty(person);
+// console.log(person.fullName); // --> 'Jade Smith';
+
+// SOLUTION:
+// function addFullNameProperty(obj){
+//     obj.fullName = `${obj.firstName} ${obj.lastName}`;
+//     return obj;
+//     };
