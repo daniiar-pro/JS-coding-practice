@@ -79,3 +79,62 @@
 // };
 
 // ===============================================================>
+
+// 84) isPersonOldEnoughToVote
+
+// Write a function called "isPersonOldEnoughToVote".
+
+// Given a "person" object, that contains an "age" property, "isPersonOldEnoughToVote" returns whether the given person is old enough to vote.
+
+// Notes:* The legal voting age in the United States is 18.
+
+// var obj = {
+//   age: 19
+// };
+// var output = isPersonOldEnoughToVote(obj);
+// console.log(output); // --> true;
+
+// SOLUTION:
+// function isPersonOldEnoughToVote(person) {
+//     return person.age >= 18 ? true : false;
+//     };
+
+// ===================================================================>
+
+// 85) isPersonOldEnoughToDrink
+
+// Write a function called "isPersonOldEnoughToDrink".
+
+// Given a "person" object, that contains an "age" property, "isPersonOldEnoughToDrink" returns whether the given person is old enough to drink.
+
+// Notes:* The legal drinking age in the United States is 21.
+
+// var obj = {
+//   age: 16
+// };
+// var output = isPersonOldEnoughToDrink(obj);
+// console.log(output); // --> false;
+
+// SOLUTION:
+// function isPersonOldEnoughToDrink(person) {
+//     return person.age >=21 ? true : false;
+//   }
+
+// ==============================================================================>
+
+// 86) getProperty
+
+// Write a function called "getProperty".
+
+// Given an object and a key, "getProperty" returns the value of the property at the given key. Notes:* If there is no property at the given key, it should return undefined.
+
+// var obj = {
+//   key: 'value'
+// };
+// var output = getProperty(obj, 'key');
+// console.log(output); // --> 'value';
+
+// SOLUTION:
+// function getProperty(obj,key){
+//     return obj.hasOwnProperty(key) ? obj[key] : undefined;
+// };
