@@ -115,3 +115,89 @@
 // function addPostfixMiddle(arr, postfix) {
 //     return arr.join( ` ${postfix} ` )  
 // }
+
+// =============================================================>
+
+// 7) countItem
+
+// Create a function which finds how many item inside a given array.
+
+// Note: You can use loop
+
+// `countItem([1,2,4,5,8,5,1,5], 5) // 3`;
+
+// SOLUTION:
+// function countItem(arr, num) {
+//     let count = 0;
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] === num){
+//              count++    
+//         }
+//     }
+//     return count;
+//   }
+
+// ===================================================>
+
+// 8)  sumAll
+
+// Create a function which finds sum of all elements from a given array
+
+// Note: Please use reduce, loop
+
+// `sumAll([1,2,3,4]) // 10`
+
+// SOLUTION:
+// function sumAll(arr){
+//     return arr.reduce((acc, cur) => acc + cur, 0)
+// };
+
+
+// =======================================================================>
+
+// 9) sumAllNums
+
+// Create a function which returns sum of all numbers from a given array. [1,{}, null,2] => 3
+
+// `sumAllNums([1,{}, null,2]) // 3`
+// `sumAllNums(["1",NaN, null,2]) // 2`
+
+// SOLUTION:
+// function sumAllNums(arr){
+//     let result = 0;
+//     for(let i = 0; i < arr.length; i++){
+//         if(typeof arr[i] === 'number' && !isNaN(arr[i])){
+//             result += arr[i]
+//         }
+//     }
+//         return result;
+// }
+
+// ===============================================>
+
+// 10) filterChar
+
+// Create a function to filter all chars which are not equal to a given char from an arrays. ['a','b','A','c'], 'a' => ['b','c']
+
+// NOTE: use reduce, filter, loop
+
+// `filterChar(['a','b','A','c'], 'a') // ['b','c']`
+
+
+// SOLUTION:
+// function filterChar(arr, char) {
+//   let res = []
+//   for(let i = 0; i < arr.length; i++){
+//       if(arr[i] !== char){
+//       if(typeof(arr[i]) === 'string'){
+//               arr[i] = arr[i].toString().toLowerCase();
+// if(arr[i] !== char){
+//           res.push(arr[i])
+// }
+//       }
+          
+
+//       }
+//   }
+//   return res
+// }
