@@ -52,3 +52,66 @@
 // };
 
 // ========================================================================>
+
+// 4) allIndexOf
+
+// Create a function which returns all indexes of an item from a given array.
+
+// Notes:
+
+// Please use loop
+
+// `allIndexOf(["Apple", "Orange", "Apple", "Mango"], "Apple") // [0,2]
+// allIndexOf([1,1,2,3,1,3], 1) // [0,1,4]`
+
+// SOLUTION:
+// function allIndexOf(arr, index){
+//     let result = [];
+
+//    for(let i = 0; i< arr.length; i++){
+//        if(arr[i] === index){
+//            result.push(i)
+//        }
+//    }
+//    return result;
+// };
+
+// ==============================================================>
+
+//5) addPostfix
+
+// Create a function which adds a postfix to a given array items.
+
+// Notes:
+
+// Please use map or loop
+// `addPostfix(["Apple", "Orange", "Apple", "Mango"], "+")` 
+// `// ["Apple+", "Orange+", "Apple+", "Mango+"]`
+
+// SOLUTION:
+
+// function addPostfix(arr){
+//     return arr.map(ar => `${ar}+`)
+// }
+
+// function addPostfix(arr, str){
+//     for(let i = 0; i <arr.length; i++){
+//         arr[i] += str;
+
+//     }
+//     return arr
+// }
+
+// ==============================================================>
+
+// 6) addPostfixMiddle
+
+// Create a function which adds postfix between array items and convert to a string.
+
+// `addPostfixMiddle(["Apple", "Orange", "Kiwi"], "and")` 
+// `// "Apple and Orange and Kiwi"`
+
+// SOLUTION:
+// function addPostfixMiddle(arr, postfix) {
+//     return arr.join( ` ${postfix} ` )  
+// }
