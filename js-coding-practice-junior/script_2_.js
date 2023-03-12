@@ -123,4 +123,63 @@
 // function clean(str) {
 //   const join = str.split(' ').join('')
 //     return join;
+// };
+
+
+// =========================================================================>
+
+// 17) indexOf
+
+// Implement custom indexOf method
+
+// `const str = "California";
+// str.indexOfCus("i") // 3;`
+
+// SOLUTION:
+
+// ==========================================================>
+
+
+// 18) lastIndexOf
+
+// Implement lastIndexOf method.
+
+// `const students = [1,2,3,4,2];
+// students.lastIndexOf(2);  // 4`
+
+// SOLUTION:
+
+// =====================================>
+
+//19) includes
+
+// Implement includes method.
+
+// `const students = ["Aizat", "Kach", "Jantai", "Aidar"];
+// students.includes('Jantai');  // true`
+
+// ================================================>
+
+
+// 20) removeNumbersLargerThan
+
+// Write a function called "removeNumbersLargerThan".
+
+// Given a number and an object, "removeNumbersLargerThan" removes any properties whose values are numbers greater than the given number.
+
+// var obj = {
+//   a: 8,
+//   b: 2,
+//   c: 'montana'
+// }
+// removeNumbersLargerThan(5, obj);
+// console.log(obj); // --> { b: 2, c: 'montana' }
+
+// SOLUTION:
+// function removeNumbersLargerThan(num, obj) {
+//   for (var key in obj) {                    // for each key in the object
+//     if(!isNaN(obj[key]) && obj[key] > num)  // if the value of that key is not a NaN (is a number) and if that number is greater than num
+//       delete obj[key];                      // then delete the key-value from the object
+//   }
+//   return obj
 // }
