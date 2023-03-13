@@ -82,3 +82,85 @@
 // };
 
 // ===================================================================>
+
+// 24) countNumberOfKeys
+
+// Write a function called "countNumberOfKeys".
+
+// Given an object, "countNumberOfKeys" returns how many properties the given object has.
+
+// var obj = {
+//   a: 1,
+//   b: 2,
+//   c: 3
+// };
+// var output = countNumberOfKeys(obj);
+// console.log(output); // --> 3
+
+// SOLUTION:
+// function countNumberOfKeys(obj) {
+// return Object.keys(obj).length
+// }
+
+// function countNumberOfKeys(obj){
+//     let count = 0;
+//     for(let key in obj){
+//       count++
+//     }
+//     return count;
+//   };
+
+// ======================================================================>
+
+// 25) removeOddValues
+
+// Write a function called "removeOddValues".
+
+// Given an object, "removeOddValues" removes any properties whose valuse are odd numbers.
+
+// var obj = {
+//   a: 2,
+//   b: 3,
+//   c: 4
+// };
+// removeOddValues(obj);
+// console.log(obj); // --> { a: 2, c: 4 }
+
+// function removeOddValues(obj) {
+//   for(let key in obj){
+//     if(obj[key] % 2 !== 0){
+//       delete obj[key]
+//     }
+//   }
+//   return obj
+// };
+
+// =====================================================================>
+
+
+// 26) removeArrayValues
+
+// Write a function called "removeArrayValues".
+
+// Given an object, "removeArrayValues" removes any properties whose values are arrays.
+
+// var obj = {
+//   a: [1, 3, 4],
+//   b: 2,
+//   c: ['hi', 'there']
+// }
+// removeArrayValues(obj);
+// console.log(obj); // --> { b: 2 }
+
+// SOLUTION:
+// function removeArrayValues(obj) {
+//  for(let key in obj){
+//    if(Array.isArray(obj[key])){
+//      delete obj[key]
+//    }
+//  }
+//  return obj;
+// }
+
+// ===================================================>
+
