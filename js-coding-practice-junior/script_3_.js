@@ -164,3 +164,156 @@
 
 // ===================================================>
 
+// 27) removeNumberValues
+
+// Write a function called "removeNumberValues".
+
+// Given an object, "removeNumberValues" removes any properties whose valuse are numbers.
+
+// var obj = {
+//   a: 2,
+//   b: 'remaining',
+//   c: 4
+// };
+// removeNumberValues(obj);
+// console.log(obj); // --> { b: 'remaining' }
+
+// SOLUTION:
+// function removeNumberValues(obj) {
+//   for(let key in obj){
+//     if(typeof obj[key] === 'number'){
+//       delete obj[key]
+//     }
+//   }
+//   return obj;
+// }
+
+
+// function removeNumberValues(obj){
+//   for(let key in obj){
+//     if(Number.isInteger(obj[key])){
+//       delete obj[key]
+//     }
+//   }
+//   return obj
+// };
+
+// ====================================================================>
+
+
+// 28) removeStringValues
+
+// Write a function called "removeStringValues".
+
+// Given an object, "removeStringValues" removes any properties on the given object whose values are strings.
+
+// var obj = {
+//   name: 'Sam',
+//   age: 20
+// }
+// removeStringValues(obj);
+// console.log(obj); // { age: 20 }
+
+// SOLUTION:
+// function removeStringValues(obj) {
+// for(let key in obj){
+//   if(typeof obj[key] === 'string'){
+//     delete obj[key];
+//   }
+// }
+// return obj;
+// }
+
+// ========================================================================>
+
+// 29) select
+
+// Write a function called "select".
+
+// Given an array and an object, "select" returns a new object whose properties are those in the given object AND whose keys are present in the given array.
+
+// Notes:
+
+// If keys are present in the given array, but are not in the given object, it should ignore them.
+
+// It does not modify the passed in object.
+
+// var arr = ['a', 'c', 'e'];
+// var obj = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+//   d: 4
+// };
+// var output = select(arr, obj);
+// console.log(output); // --> { a: 1, c: 3 }
+
+// SOLUTION:
+// function select(arr, obj) {
+// let result = {};
+//   for(let key in obj){
+//     if(arr.includes(key)){
+//       result[key] = obj[key]
+//     }
+//   }
+//   return result;
+// }
+
+
+// function select(arr, obj){
+//   const newObject = {};
+//   for(let i = 0; i < arr.length; i++){
+//     if(obj[arr[i]]){
+//       newObject[arr[i]] =  obj[arr[i]]
+//     }
+//   }
+//   return newObject;
+// };
+
+
+// =============================================================>
+
+// 30) getOddElementsAtProperty
+
+// Write a function called "getOddElementsAtProperty".
+
+// Given an object and a key, "getOddElementsAtProperty" returns an array containing all the odd elements of the array located at the given key.
+
+// Notes:
+
+// If the array is empty, it should return an empty array.
+
+// If it contains no odd elements, it should return an empty array.
+
+// If the property at the given key is not an array, it should return an empty array.
+
+// If there is no property at the key, it should return an empty array.
+
+// var obj = {
+//   key: [1, 2, 3, 4, 5]
+// };
+// var output = getOddElementsAtProperty(obj, 'key');
+// console.log(output); // --> [1, 3, 5]
+
+// SOLUTION:
+// function getOddElementsAtProperty(obj, key) {
+//   // Check if the property at the given key is an array
+//   if (Array.isArray(obj[key])) {
+//     // Filter the odd elements of the array at the given key
+//     return obj[key].filter(element => element % 2 !== 0);
+//   }
+//   // If the property at the given key is not an array, return an empty array
+//   return [];
+// }
+
+// function getOddElementsAtProperty(obj,key){
+//     let result =[];
+//     if(!obj[key]) return result;
+//     if(!Array.isArray(obj[key])) return result;
+//     for(let i = 0; i < obj[key].length; i++){
+//         if(obj[key][i] % 2 !==0) {
+//             result.push(obj[key][i])
+//         }
+//     }
+//     return result;
+// }
