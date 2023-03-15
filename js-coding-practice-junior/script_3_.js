@@ -295,7 +295,7 @@
 // var output = getOddElementsAtProperty(obj, 'key');
 // console.log(output); // --> [1, 3, 5]
 
-// SOLUTION:
+// SOLUTION:n
 // function getOddElementsAtProperty(obj, key) {
 //   // Check if the property at the given key is an array
 //   if (Array.isArray(obj[key])) {
