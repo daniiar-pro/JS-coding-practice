@@ -209,3 +209,132 @@
 
 // =================================================>
 
+// 37) findSmallestElement
+
+// Write a function called "findSmallestElement".
+
+// Given an array of numbers, "findSmallestElement" returns the smallest number within the given array.
+
+// Notes:
+
+// If the given array is empty, it should return 0.
+// var output = findSmallestElement([4, 1, 9, 10]);
+// console.log(output); // --> 1
+
+// SOLUTION:
+// function findSmallestElement(arr) {
+//     if(arr.length === 0) return 0;
+
+// const small = arr.reduce((prev, cur) => {
+//     return prev < cur ? prev : cur;
+// });
+
+// return small;
+
+// }
+
+
+// function findSmallestElement(arr){
+//     if(arr.length === 0) return 0;
+    
+//     let result = arr[0];
+
+//     for(let i = 1; i < arr.length; i++){
+//         if(arr[i] < result){
+//             result = arr[i]
+//         }
+//     }
+//     return result;
+// };
+
+// ========================================================>
+
+// 38) findShortestElement
+
+// Write a function called "findShortestElement".
+
+// Given an array, "findShortestElement" returns the shortest string within the given array.
+
+// Notes:
+
+// If there are ties, it should return the first element to appear.
+
+// If the given array is empty, it should return an empty string.
+
+// var output = findShortestElement(['a', 'two', 'three']);
+// console.log(output); // --> 'a'
+
+// SOLUTION:
+// function findShortestElement(arr) {
+//   const srt = arr.reduce((prev, cur) => {
+//       return prev.length < cur.length ? prev : cur 
+//       || prev.length == cur.length ? prev : cur;
+//   });
+
+//   return srt;
+// }
+
+// function findShortestElement(arr){
+//     if(arr.length === 0) return '';
+
+//     let result = arr[0];
+
+//     for(let i = 1; i < arr.length; i++){
+//         if(arr[i].length < result.length){
+//             result = arr[i]
+//         }
+//     }
+//     return result;
+// };
+
+// ==================================================>
+
+// 39) computeSumOfAllElements
+
+// Write a function called "computeSumOfAllElements".
+
+// Given an array of numbers, "computeSumOfAllElements" returns the sum of all the elements in the given array.
+
+// var output = computeSumOfAllElements([1, 2, 3])
+// console.log(output); // --> 6
+
+// SOLUTION:
+// function computeSumOfAllElements(arr) {
+//  let result = 0;
+
+//  for(let i = 0; i < arr.length; i++){
+//      result += arr[i]
+//  }
+//  return result;
+// };
+
+// ===============================================================>
+
+// 40) calculateBillTotal
+
+// Write a function called "calculateBillTotal".
+
+// Given the pre tax and pre tip amount of a meal, "calculateBillTotal" returns the total amount due after tax and tip.
+
+// Notes:
+
+// Assume that sales tax is 9.5% and tip is 15%.
+
+// Do NOT tip on the sales tax, only on the pre tip amount.
+
+// var output = calculateBillTotal(20);
+// console.log(output); // --> 24.9
+
+// function calculateBillTotal(preTaxAndTipAmount) {
+//   let taxe = preTaxAndTipAmount * 0.095;
+//   let tipe = preTaxAndTipAmount * 0.15;
+//     let result = preTaxAndTipAmount + taxe + tipe;
+//     return result;
+// }
+
+
+// function calculateBillTotal(preTaxAndTipAmount){
+//     const tip = preTaxAndTipAmount * 15/100;
+//     const tax = preTaxAndTipAmount * 9.5/ 100;
+//     return preTaxAndTipAmount + tip + tax;
+// }
