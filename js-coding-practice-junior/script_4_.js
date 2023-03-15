@@ -99,3 +99,113 @@
 // };
 
 // ========================================================>
+
+// 34) filterEvenElements
+
+// Write a function called "filterEvenElements".
+
+// Given an array of numbers, "filterEvenElements" returns an array containing only the even numbers of the given array.
+
+// var output = filterEvenElements([2, 3, 4, 5, 6]);
+// console.log(output); // --> [2, 4, 6]
+
+// SOLUTION:
+// function filterEvenElements(arr){
+//     return arr.filter(ar => ar % 2 === 0)
+// };
+
+// ===================================================================>
+
+// 35) getLengthOfShortestElement
+
+// Write a function called "getLengthOfShortestElement".
+
+// Given an array, "getLengthOfShortestElement" returns the length of the shortest string in the given array.
+
+// Notes:
+
+// It should return 0 if the array is empty.
+// var output = getLengthOfShortestElement(['one', 'two', 'three']);
+// console.log(output); // --> 3
+
+// SOLUTION:
+// function getLengthOfShortestElement(arr) {
+//     if(arr.length === 0) return 0;
+
+//     let result = 0;
+
+//    for(let i = 0; i < arr.length; i++){
+
+//        if(arr[i].length >= arr[i].length){
+
+//            result = result + arr[i][0].length;
+
+//        }
+//    }
+
+//    return result;
+// }
+
+
+// function getLengthOfShortestElement(arr){
+//     const lengthArray = arr.map((e) => e.length);
+
+//     let shortest = Infinity;
+
+//     if(lengthArray.length < 1) return 0;
+
+//     for(const el of lengthArray){
+//         if(el < shortest){
+//             shortest = el;
+//         }
+//     }
+//     return shortest
+// };
+
+// ===================================================================>
+
+// 36) getLongestElement
+
+// Write a function called "getLongestElement".
+
+// Given an array, "getLongestElement" returns the longest string in the given array.
+
+// Notes:
+
+// If there are ties, it returns the first element to appear.
+
+// If the array is empty, it should return an empty string.
+
+// var output = getLongestElement(['one', 'two', 'three']);
+// console.log(output); // --> 'three'
+
+
+// SOLUTION:
+// function getLongestElement(arr) {
+//   let long = arr.reduce((prev,cur) => {
+//       return prev.length > cur.length ? prev : cur;
+//   },'')
+//   return long;
+// }
+
+//we have used here reduce method with prev and cur,
+// and if prev.length is > than cur.length
+// then return prev otherwise return cur,
+// initial value is '' empty string
+
+
+// function getLongestElement(arr){
+//     if(arr.length === 0) return '';
+
+//      let result = arr[0];
+
+//      for(let i = 1; i < arr.length; i++){
+//          if(arr[i].length > result.length){
+//              result = arr[i]
+//          }
+//      }
+//      return result;
+// };
+
+// =================================================>
+
