@@ -138,4 +138,87 @@
 // SOLUTION:
 // function reverse(arr) {
  
+// };
+
+// 47) squareArrayVals
+
+// Square each value in a given array, returning that same array with changed values.
+
+// `squareArrayVals(arr)`
+
+// SOLUTION:
+// // function squareArrayVals(arr) {
+// //    arr = arr.map(ar => ar * ar);
+// //   return arr;
+// // }
+
+// function squareArrayVals(arr){
+//     let res = [];
+
+//     for(let  i = 0; i < arr.length; i++){
+//         res.push(arr[i] * arr[i]);
+//     }
+//     return res;
+// };
+
+// ==============================================================>
+
+// 48) zeroOutArrayNegativeVals
+
+// Zero Out Array Negative Numbers
+
+// Return the given array, after setting any negative values to zero.
+
+// `zeroOutArrayNegativeVals(arr)`
+
+// SOLUTION:
+// function zeroOutArrayNegativeVals(arr) {
+
+// let res = [];
+
+// for(let i = 0; i < arr.length; i++){
+//     if(arr[i] < 0)  arr[i] = 0;
+//     res.push(arr[i])
+// }
+// return res;
+
+// };
+
+// =============================================================>
+
+// 49) sigma
+
+// Sigma
+
+// Implement function sigma(num) that given a number, returns the sum of all positive integers to number (inclusive).
+
+// `sigma(5) // 15 (1 + 2 + 3 + 4 + 5)`
+
+// SOLUTION:
+// function sigma(num) {
+// let sum = 0;
+
+// for(let i = 0; i <= num; i++){
+//     sum += i;
+// }
+// return sum;
+// };
+
+// ================================================>
+
+// 50) factorial
+
+// Factorial
+
+// Write a function factorial(num) that, given a number, returns the product (multiplication) of all positive integers from 1 up to number (inclusive).
+
+// `factorial (5) = 120 (or 1 * 2 * 3 * 4 * 5)`
+
+// SOLUTION:
+// function factorial (num) {
+//   let fact = 1;
+//   for(let i = 1; i <= num; i++){
+//       fact *= i
+//   };
+//   return fact;
 // }
