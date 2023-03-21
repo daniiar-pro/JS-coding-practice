@@ -40,3 +40,63 @@
 // Be sure to familiarize yourself with the "toString" method, as well as the "Number" function.
 
 // =========================================================>
+
+// 53) repeatString
+
+// Write a function called "repeatString".
+
+// Given a string and a number, "repeatString" returns the given string repeated the given number of times.
+
+// var output = repeatString('code', 3);
+// console.log(output); // --> 'codecodecode'
+
+// SOLUTION:
+// function repeatString(string, num) {
+//   let repeated = '';
+
+//   for(let i = 0; i < num; i++){
+//       repeated +=string
+//   }
+//   return repeated
+// };
+
+// ===================================================>
+
+// 54) getLongestOfThreeWords
+
+// Write a function called "getLongestOfThreeWords".
+
+// Given 3 words, "getLongestOfThreeWords" returns the longest of three words.
+
+// Notes:
+
+// If there is a tie, it should return the first word in the tie.
+// var output = getLongestOfThreeWords('these', 'three', 'words');
+// console.log(output); // --> 'these'
+
+// SOLUTION:
+// function getLongestOfThreeWords(word1, word2, word3) {
+//   if(word1.length >= word2.length && word3.length){
+//       return word1;
+//   } else if(word2.length >= word1.length && word3.length){
+//       return word2;
+//   } else if(word3.length >= word1.length && word2.length){
+//       return word3;
+//   } else {
+//       return word1;
+//   }
+// }
+
+// function getLongestOfThreeWords(word1, word2, word3){
+//     let longest = '';
+
+//     for(let i = 0; i < 3; i++){
+//         if(arguments[i].length > longest.length){
+//             longest = arguments[i];
+//         }
+//     }
+//     return longest;
+
+// };
+
+// =======================================================================>
