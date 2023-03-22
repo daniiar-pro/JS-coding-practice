@@ -100,3 +100,38 @@
 // };
 
 // =======================================================================>
+
+// 55) findShortestOfThreeWords
+
+// Write a function called "findShortestOfThreeWords".
+
+// Given 3 strings, "findShortestOfThreeWords" returns the shortest of the given strings.
+
+// Notes:
+
+// If there are ties, it should return the first word in the parameters list.
+// var output = findShortestOfThreeWords('a', 'two', 'three');
+// console.log(output); // --> 'a'
+
+// SOLUTION:
+// function findShortestOfThreeWords(word1, word2, word3) {
+//   let shortest = word1;
+
+//   for(let i = 1; i < arguments.length; i++){
+//       if(arguments[i].length < shortest.length){
+//           shortest = arguments[i]
+//       }
+//   }
+// return shortest;
+// }
+
+// function findShortestOfThreeWords(word1, word2, word3){
+//     let mindWord = arguments[0];
+
+//     for(let i = 0; i < 3; i++){
+//         if(arguments[i].length < mindWord.length){
+//             mindWord = arguments[i];
+//         }
+//     }
+// return mindWord;
+// }
