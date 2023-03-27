@@ -134,4 +134,36 @@
 //         }
 //     }
 // return mindWord;
+// };
+
+// ===============================================>
+
+//  56) isOddWithoutModulo
+
+// Write a function called "isOddWithoutModulo".
+
+// Given a number, "isOddWithoutModulo" returns whether the passed in number is odd.
+
+// Note:
+
+// It does so without using the modulo operator (%).
+
+// It should work for negative numbers and zero.
+
+// var output = isOddWithoutModulo(17);
+// console.log(output); // --> true
+
+
+// SOLUTION:
+// function isOddWithoutModulo(num) {
+
+
+//    num = Math.abs(num);
+//    if(num==0)
+//        return false;
+//    else if(num==1)
+//        return true;
+//    else
+//        return isOddWithoutModulo(num-2);
+
 // }
