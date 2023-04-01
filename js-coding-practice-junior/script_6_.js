@@ -186,4 +186,81 @@
 // SOLUTION:
 // function isEvenWithoutModulo(num) {
 //   // your code here
+// };
+
+// =============================================================================>
+
+// 58)  multiplyBetween
+
+// Write a function called "multiplyBetween".
+
+// Given 2 integers, "multiplyBetween" returns the product between the two given integers, beginning at num1, and excluding num2.
+
+// Notes:
+
+// The product between 1 and 4 is 1 * 2 * 3 = 6.
+
+// If num2 is not greater than num1, it should return 0.
+
+// var output = multiplyBetween(2, 5);
+// console.log(output); // --> 24
+
+
+// SOLUTION:
+// function multiplyBetween(num1, num2) {
+//   if(typeof num2 !== 'number') return 0;
+
+//     let res = 1;
+
+//     for(let i = num1; i < num2; i++){
+//         res *= i
+//     }
+//     return res;
+
+// }
+
+// ==============================================================>
+
+//59)  transformFirstLast
+
+// Write a function called "transformFirstLast".
+
+// Transform first and last item to an object.
+
+// var arr = [1,2,3,4]
+// // {first: 1, last: 4}
+
+// SOLUTION:
+// function transformFirstLast(arr) {
+//     let obj = {};
+
+//     obj.first = arr[0];
+//     obj.last = arr[arr.length -1];
+
+//     return obj;
+// }
+
+// // we created obj literal 
+// // then new key for obj.first and assign value arr[0]
+// // assigned array first value to it
+// // then for last assigned arrays last value
+// // using arr[arr.length -1];
+
+// // then returned changed object with new
+// // key-value pairs;
+
+// ===============================================================================>
+
+// 60)  getAllKeys
+
+// Write a function called "getAllKeys".
+
+// Return all keys from a given array.
+
+// var obj = {a: 1, b: 4}
+// getAllKeys(obj) // ['a', 'b']
+
+// SOLUTION:
+// function getAllKeys(arr) {
+//  return Object.keys(arr);
 // }
