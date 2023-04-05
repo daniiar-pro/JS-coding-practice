@@ -13,3 +13,34 @@
 //   }
 //   return res;
 // }
+
+// ==========================================>
+
+// 2) getFreq
+
+// Find frequency of 'a' in a given text.
+
+// `getFreq('alibaba', 'a') // 3`
+
+// SOLUTION:
+// // function getFreq(str, target) {
+// //   let sp = str.split('');
+    
+// //     let count = 0;
+
+// //     for (let i = 0; i < sp.length; i++){
+// //         if(sp[i] === target){
+// //             count++;
+// //         }
+// //     }
+// //     return count;
+// // }
+
+// function getFreq(str, target){
+//     let count = 0;
+
+//     for (let i = 0; i < str.length; i++){
+//         if (str[i] === target)  count++
+//     }
+//     return count;
+// }
