@@ -14,7 +14,8 @@
 //   return res;
 // }
 
-// ==========================================>
+
+// =======================================>
 
 // 2) getFreq
 
@@ -43,4 +44,39 @@
 //         if (str[i] === target)  count++
 //     }
 //     return count;
+
 // }
+
+// ==============================================================================>
+// 3) getFreqAll
+
+// Find frequencies of all letters in a given text.
+
+// `getFreqAll('alibaba') // {a:3, l:1, i:1, b:2}`
+
+// SOLUTION:
+// function getFreqAll(str) {
+//   let freq = {};
+  
+//      for (let i = 0; i < str.length; i++){
+//          let letter = str[i]
+//          if(freq[letter]){
+//              freq[letter]++
+//          } else {
+//              freq[letter] = 1;
+//          }
+//      }
+//      return freq
+// }
+
+// function getFreqAll(str){
+
+//     let res = {};
+
+//     for (let i = 0; i < str.length; i++){
+//         if(res[str[i]]) res[str[i]]++;
+//         else res[str[i]] = 1;
+//     }
+//     return res;
+=======
+// ==========================================>
