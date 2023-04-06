@@ -80,3 +80,27 @@
 //     return res;
 
 // ==========================================>
+
+// 4) removeDup
+
+// Removing duplicates of an array and returning an array of only unique elements
+
+// `removeDup([1,2,3,1,1,1,2]) // [1,2,3]`
+
+// SOLUTION:
+// function removeDup(array) {
+//   let res = [];
+
+//   array.forEach(ar => {
+//       if(!res.includes(ar)){
+//       res.push(ar)
+
+//       }
+//   })
+//   return res;
+// }
+
+// function removeDup(arr){
+//     let sett = [... new Set(arr)];
+//     return sett;
+// }
