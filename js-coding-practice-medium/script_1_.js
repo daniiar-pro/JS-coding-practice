@@ -103,8 +103,8 @@
 // function removeDup(arr){
 //     let sett = [... new Set(arr)];
 //     return sett;
-// }
 
+// };
 // 5) largestDiff
 
 // Given an array of integers, find the largest difference between two elements
@@ -135,3 +135,30 @@
 // };
 
 // ====================================>
+
+
+
+// 6) capitalize
+
+// Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case
+
+// `capitalize('the quick brown fox') // The Quick Brown Fox`
+ 
+// SOLUTION:
+//  function capitalize(str){
+
+//      let arr = str.split(' ');
+//      let string = '';
+
+//      for (let i = 0; i < arr.length; i++){
+//          string = arr[i][0];
+
+//          arr[i] = string.toUpperCase() + arr[i].slice(1)
+//      }
+//      return arr.join(' ')
+//  };
+
+// ================================================>
+
+// }
+
