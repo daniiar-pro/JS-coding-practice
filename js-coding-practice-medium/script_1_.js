@@ -103,7 +103,40 @@
 // function removeDup(arr){
 //     let sett = [... new Set(arr)];
 //     return sett;
+
 // };
+// 5) largestDiff
+
+// Given an array of integers, find the largest difference between two elements
+
+// `largestDiff([2,3,8,1]) // 7`
+
+// SOLUTION:
+// function largestDiff(arr) {
+//   var maxDiff = 0;
+//   for (var i = 0; i < arr.length - 1; i++) {
+//     for (var j = i + 1; j < arr.length; j++) {
+//       var diff = Math.abs(arr[j] - arr[i]);
+//       if (diff > maxDiff) {
+//         maxDiff = diff;
+//       }
+//     }
+//   }
+//   return maxDiff;
+// }
+
+// console.log(largestDiff([2,3,8,1])); // 7
+
+
+// function largestDiff(arr){
+//     let resArr = arr.sort((a,b) => (a-b));
+//     let res = resArr[resArr.length -1] - resArr[0];
+//     return res; 
+// };
+
+// ====================================>
+
+
 
 // 6) capitalize
 
@@ -126,3 +159,6 @@
 //  };
 
 // ================================================>
+
+// }
+
