@@ -158,7 +158,19 @@
 //      return arr.join(' ')
 //  };
 
-// ================================================>
 
 // }
+// ================================================>
 
+// 7) reverseStr
+
+// Create a function which reverses a given string.
+
+// `reverseStr("hello me") // "em olleh"`
+
+// SOLUTION:
+// function reverseStr(str) {
+//   return str.split('').reverse().join('')
+// };
+
+// ==============================>
