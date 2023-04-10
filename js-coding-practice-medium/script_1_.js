@@ -186,4 +186,23 @@
 //     let result = arr.sort((a,b) => a-b);
 
 //     return result[1];
-// }
+// };
+
+
+// ==================================>
+
+// 9) reverseWords
+
+// Create a function to reverse all words in a given string.
+
+// `reverseWords("my name is Marat") // "ym eman si taraM"`
+
+// SOLUTION:
+// function reverseWords(str) {
+//   let rev = str.split(' ').map(st => {
+//      return st.split('').reverse().join('')
+//   });
+//   return rev.join(' ')
+// };
+
+// ====================================>
