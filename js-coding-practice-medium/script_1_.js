@@ -174,3 +174,16 @@
 // };
 
 // ==============================>
+
+// 8) secondLowest
+
+// Write a JavaScript function which will take an array of numbers stored and find the second lowest
+
+// `secondLowest([2,3,8,0]) // 2`
+
+// SOLUTION:
+// function secondLowest(arr){
+//     let result = arr.sort((a,b) => a-b);
+
+//     return result[1];
+// }
