@@ -206,3 +206,22 @@
 // };
 
 // ====================================>
+
+//  10) count
+
+// Accept a string and return the number of non-space characters found in the string
+
+// `count("Honey pie, you are driving me crazy") // 29 (not 35)`
+
+// SOLUTION:
+// function count(str) {
+//   let res = str.trim('');
+//   let d =res.split(' ').join('');
+//   return d.length;
+// }
+
+
+// function count(str){
+//     let res = str.split(' ').join('');
+//     return res.length;
+// }
