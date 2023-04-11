@@ -186,4 +186,42 @@
 //     let result = arr.sort((a,b) => a-b);
 
 //     return result[1];
+// };
+
+
+// ==================================>
+
+// 9) reverseWords
+
+// Create a function to reverse all words in a given string.
+
+// `reverseWords("my name is Marat") // "ym eman si taraM"`
+
+// SOLUTION:
+// function reverseWords(str) {
+//   let rev = str.split(' ').map(st => {
+//      return st.split('').reverse().join('')
+//   });
+//   return rev.join(' ')
+// };
+
+// ====================================>
+
+//  10) count
+
+// Accept a string and return the number of non-space characters found in the string
+
+// `count("Honey pie, you are driving me crazy") // 29 (not 35)`
+
+// SOLUTION:
+// function count(str) {
+//   let res = str.trim('');
+//   let d =res.split(' ').join('');
+//   return d.length;
+// }
+
+
+// function count(str){
+//     let res = str.split(' ').join('');
+//     return res.length;
 // }
