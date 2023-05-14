@@ -47,3 +47,37 @@
 //     }
 //     return `'${word}' was found ${count} times.`
 // }
+
+// 13) myChoice
+
+// We have the following array:
+
+// const color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "].
+
+// Write a JavaScript program to display the colors in the following way :
+
+// `"1st choice is Blue."
+// "2nd choice is Green."
+// "3rd choice is Red."
+
+// Solution:
+// function myChoice(arr) {
+//     let res = '';
+//  for (let i = 0; i < arr.length; i++){
+//      let suffix;
+//      if(i + 1 === 1){
+//          suffix = 'st'
+//      } else if(i + 1 === 2){
+//          suffix = 'nd'
+//      } else if(i + 1 === 3){
+//          suffix = 'rd'
+//      } else {
+//          suffix = 'th'
+//      }
+//       res += `${i+1}${suffix} is ${arr[i]} `
+//  }
+//  return res;
+ 
+// }
+
+// ======================================================>

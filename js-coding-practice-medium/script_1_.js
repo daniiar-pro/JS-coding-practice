@@ -221,7 +221,3 @@
 // }
 
 
-// function count(str){
-//     let res = str.split(' ').join('');
-//     return res.length;
-// }
