@@ -81,3 +81,34 @@
 // }
 
 // ======================================================>
+
+
+// 14) search_word
+
+// Write a JavaScript function to find a word within a string.
+
+// `search_word('The quick brown fox', 'fox') // => "'fox' was found 1 times."
+// search_word('aa, bb, cc, dd, aa', 'aa'); // -> "'aa' was found 2 times."`
+
+// SOLUTION:
+//   function search_word(str, word) {
+//   const regex = new RegExp(word, "g");
+//   const count = (str.match(regex) || []).length;
+//   return `'${word}' was found ${count} times.`;
+// }
+
+// function search_word(str, word){
+    
+//     let text = str;
+//     let count = 0;
+
+//     while(text){
+//         if (text.indexOf(word) === 0){
+//             count++
+//         }
+//         text = text.slice(1)
+//     }
+//     return `'${word}' was found ${count} times.`
+// };
+
+// =========================================>
