@@ -112,3 +112,14 @@
 // };
 
 // =========================================>
+
+
+// 15) parameterize
+
+// Write a JavaScript function to parameterize a string.
+// `parameterize('Marat Gaipov from Seattle') // => marat-gaipov-from-seattle`
+
+// SOLUTION:
+// function parameterize(str) {
+//  return str.split(' ').join('-').toLowerCase();
+// }
