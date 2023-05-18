@@ -123,3 +123,27 @@
 // function parameterize(str) {
 //  return str.split(' ').join('-').toLowerCase();
 // }
+
+// ====================================================>
+
+// 16) swapCase
+
+// Write a function to swap cases.
+
+// `swapCase('AaBbc'); // -> "aAbBC"
+
+// function swapCase(str) {
+//     let res = '';
+//   let arr = str.split('');
+//   for (let i = 0; i < arr.length; i++){
+//       if(arr[i] === arr[i].toLowerCase()){
+//           res += arr[i].toUpperCase();
+//       }  else {
+//           res += arr[i].toLowerCase()
+//       }
+//   };
+//   return res;
+// }
+// `swapCase('AaBbc'); // -> "aAbBC"`
+
+// =========================================>
