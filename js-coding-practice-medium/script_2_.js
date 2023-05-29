@@ -161,4 +161,25 @@
 //       str += char;
 //   }
 // return str;
+
+// }
+
+// }
+// ===========================================>
+
+// 18) remove_first_occurrence
+
+// Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
+
+// `remove_first_occurrence("The quick brown fox jumps over the lazy dog", 'the')
+// // "The quick brown fox jumps over lazy dog"`
+
+// SOLUTION:
+// function remove_first_occurrence(str, search) {
+//   const index = str.toLowerCase().indexOf(search.toLowerCase());
+//   if (index === -1) {
+//     return str;
+//   } else {
+//     return str.slice(0, index) + str.slice(index + search.length);
+//   }
 // }
