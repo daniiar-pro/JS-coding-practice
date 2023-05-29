@@ -147,3 +147,18 @@
 // `swapCase('AaBbc'); // -> "aAbBC"`
 
 // =========================================>
+
+// 17) repeat
+
+// Write a JavaScript function to repeat a string a specified times.
+
+// `repeat('a', 4) // 'aaaa'`
+
+// function repeat(char, num) {
+//   let str = '';
+
+//   for (let i = 0; i < num; i++){
+//       str += char;
+//   }
+// return str;
+// }
