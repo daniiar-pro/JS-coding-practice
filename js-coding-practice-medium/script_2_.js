@@ -148,9 +148,7 @@
 
 // =========================================>
 
-//17) repeat
-
-// SOLUTION:
+// 17) repeat
 
 // Write a JavaScript function to repeat a string a specified times.
 
@@ -163,6 +161,9 @@
 //       str += char;
 //   }
 // return str;
+
+// }
+
 // }
 // ===========================================>
 
