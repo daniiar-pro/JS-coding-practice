@@ -183,3 +183,27 @@
 //     return str.slice(0, index) + str.slice(index + search.length);
 //   }
 // }
+
+// ===============================================>
+
+// 19) sumToOne
+
+// Implement sumToOne(num) that sums a given integer's digits repeatedly until the sum is only one digit. Return that one-digit result.
+
+// `sumToOne(928) // 1 => 9+2+8=19 then 1+9=10, 1+0=1`
+
+// SOLUTION:
+// function sumToOne(num) {
+//   if(num < 10){
+//       return num;
+//   };
+
+// const numStr = num.toString();
+
+// let sum = 0;
+// for (let i = 0; i < numStr.length; i++){
+//     sum += parseInt(numStr[i],10)
+// };
+// return sumToOne(sum);
+
+// }
