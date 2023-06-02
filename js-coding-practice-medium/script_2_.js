@@ -192,7 +192,7 @@
 
 // `sumToOne(928) // 1 => 9+2+8=19 then 1+9=10, 1+0=1`
 
-// SOLUTION:
+// SOLUTION:l
 // function sumToOne(num) {
 //   if(num < 10){
 //       return num;
@@ -205,5 +205,20 @@
 //     sum += parseInt(numStr[i],10)
 // };
 // return sumToOne(sum);
+
+// }
+// ======================================================>
+
+// 20) pushFront
+
+// Array: Push Front
+
+// Given array and an additional value, insert this value at the beginning of the array. Do this without using any built-in array methods.
+
+// pushFront([1,2,3], 7) // [7,1,2,3]
+
+// function pushFront(arr, value) {
+//  return [value, ...arr];
+
 
 // }
