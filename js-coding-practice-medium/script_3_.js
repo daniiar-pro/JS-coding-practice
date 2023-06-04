@@ -21,3 +21,33 @@
 //   return res.pop();
 
 // }
+// =======================================================>
+
+// 22) removeDup
+
+// Array: Remove Duplicates
+
+// Given a sorted array, remove duplicate values. Because array elements are already in order, all duplicate values will be grouped together.
+
+// Notes:
+
+// As with all these array challenges, do this without using any built-in array methods.
+
+// Solve this without using any nested loops.
+
+// `removeDup([1,2,2,2,3,4,4]) // [1,2,3,4]`
+
+// SOLUTION:
+// function removeDup(arr) {
+//   let sorted = [];
+
+//   for (let i = 0; i < arr.length; i++){
+//     if(!sorted.includes(arr[i])){
+//       sorted.push(arr[i]);
+//     } else {
+//       sorted;
+//     }
+    
+//   }
+//   return sorted;
+// }
