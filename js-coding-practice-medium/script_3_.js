@@ -74,3 +74,29 @@
 //   }
 //   return arr
 // }
+
+// =========================================>
+
+// 24) filterRange
+
+// Array: Filter Range
+
+// Given array and values min and max, retain only the array values between min and max. Work in-place: return the array you are given, with values in original order.
+
+// Note:
+
+// No built-in array functions.
+// `filterRange([2,6,12,4,7,13,42,1], 3, 9) // [6, 4, 7]`
+
+// SOLUTION:
+// function filterRange(arr, min, max) {
+//   let res = [];
+
+//   for (let i = 0; i < arr.length; i++){
+//     if(arr[i] > min && arr[i] < max){
+//       res.push(arr[i])
+//     }
+//   } 
+//   arr = res;
+//   return arr;
+// }
