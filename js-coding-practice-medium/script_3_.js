@@ -100,3 +100,32 @@
 //   arr = res;
 //   return arr;
 // }
+
+// ===============================================>
+
+
+//25) arrConcat
+
+// Array: Concat
+
+// Replicate JavaScript's concat() built-in method . Create a standalone function that accepts two arrays. Return a new array containing the first array's elements, followed by the second array's elements. Do not alter the original arrays.
+
+// `arrConcat(['a', 'b'],[1, 2]) // ['a','b',1,2].`
+
+// SOLUTION:
+// function arrConcat(arr1, arr2) {
+//   // return arr1.concat(arr2);
+//   // return [...arr1, ...arr2];
+
+//   let col = [];
+
+//   for (let i = 0; i < arr1.length; i++){
+//     col.push(arr1[i]);
+//   }
+
+//   for (let i = 0;  i < arr2.length; i++){
+//     col.push(arr2[i]);
+//   }
+
+// return col;
+// }
