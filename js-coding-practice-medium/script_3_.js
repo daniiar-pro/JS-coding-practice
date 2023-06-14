@@ -129,3 +129,20 @@
 
 // return col;
 // }
+
+// ==================================================>
+
+// 26) What's the output?
+// let name = 'Lydia';
+
+// SOLUTION:
+// function getName() {
+//   console.log(name);
+//   let name = 'Sarah';
+// }
+
+// getName();
+// A: Lydia
+// B: Sarah
+// C: undefined
+// D: ReferenceError
