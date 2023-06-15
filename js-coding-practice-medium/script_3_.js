@@ -146,3 +146,24 @@
 // B: Sarah
 // C: undefined
 // D: ReferenceError
+// ============================================>
+
+// 27) What's the output?
+// function* generatorOne() {
+//   yield ['a', 'b', 'c'];
+// }
+
+// function* generatorTwo() {
+//   yield* ['a', 'b', 'c'];
+// }
+
+// const one = generatorOne();
+// const two = generatorTwo();
+
+// SOLUTION:
+// console.log(one.next().value);
+// console.log(two.next().value);
+// A: a and a
+// B: a and undefined
+// C: ['a', 'b', 'c'] and a
+// D: a and ['a', 'b', 'c']
