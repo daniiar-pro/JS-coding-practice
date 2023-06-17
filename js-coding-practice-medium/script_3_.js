@@ -167,3 +167,18 @@
 // B: a and undefined
 // C: ['a', 'b', 'c'] and a
 // D: a and ['a', 'b', 'c']
+// // ============================>
+
+// 28) What's the output?
+// const name = 'Lydia Hallie';
+// const age = 21;
+
+// console.log(Number.isNaN(name));
+// console.log(Number.isNaN(age));
+
+// console.log(isNaN(name));
+// console.log(isNaN(age));
+// A: true false true false
+// B: true false false false
+// C: false false true false
+// D: false true false true
