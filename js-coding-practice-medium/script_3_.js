@@ -47,7 +47,7 @@
 //     } else {
 //       sorted;
 //     }
-    
+
 //   }
 //   return sorted;
 // }
@@ -96,13 +96,12 @@
 //     if(arr[i] > min && arr[i] < max){
 //       res.push(arr[i])
 //     }
-//   } 
+//   }
 //   arr = res;
 //   return arr;
 // }
 
 // ===============================================>
-
 
 //25) arrConcat
 
@@ -182,3 +181,18 @@
 // B: true false false false
 // C: false false true false
 // D: false true false true
+// =================================================>
+
+// 29) What's the output?
+// const randomValue = 21;
+
+// function getInfo() {
+//   console.log(typeof randomValue);
+//   const randomValue = 'Lydia Hallie';
+// }
+
+// getInfo();
+// A: "number"
+// B: "string"
+// C: undefined
+// D: ReferenceError`
