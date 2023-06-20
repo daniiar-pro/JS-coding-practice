@@ -67,7 +67,7 @@
 // function reverse(arr) {
 //   // your code here
 //     let temp;
-//     for (let i=0; i<arr.length/2; i++){
+//     for (let i=0; ii++){
 //     temp=arr[i];
 //     arr[i]=arr[arr.length-1-i];
 //     arr[arr.length-1-i]=temp;
@@ -168,31 +168,3 @@
 // D: a and ['a', 'b', 'c']
 // // ============================>
 
-// 28) What's the output?
-// const name = 'Lydia Hallie';
-// const age = 21;
-
-// console.log(Number.isNaN(name));
-// console.log(Number.isNaN(age));
-
-// console.log(isNaN(name));
-// console.log(isNaN(age));
-// A: true false true false
-// B: true false false false
-// C: false false true false
-// D: false true false true
-// =================================================>
-
-// 29) What's the output?
-// const randomValue = 21;
-
-// function getInfo() {
-//   console.log(typeof randomValue);
-//   const randomValue = 'Lydia Hallie';
-// }
-
-// getInfo();
-// A: "number"
-// B: "string"
-// C: undefined
-// D: ReferenceError`
