@@ -165,6 +165,49 @@
 // A: a and a
 // B: a and undefined
 // C: ['a', 'b', 'c'] and a
-// D: a and ['a', 'b', 'c']
-// // ============================>
+// Dature
+// 28) What's the output?
+// const name = 'Lydia Hallie';
+// const age cons
+/ console.log(Number.isNaN(age));
 
+// console.log(isNaN(name));
+// console.log(isNaN(age));
+// A: true false true false
+// B: true false false false
+// C: false false true false
+// D: false true false true
+// =================================================>
+
+// 29) What's the output?
+// const randomValue = 21;
+
+// function getInfo() {
+//   console.log(typeof randomValue);
+//   const randomValue = 'Lydia Hallie';
+// }
+
+// getInfo();
+// A: "number"
+// B: "string"
+// C: undefined
+// D: ReferenceError
+// ==================================================>
+
+// 30) What's the output?
+// const myPromise = Promise.resolve('Woah some cool data');
+
+// (async () => {
+//   try {
+//     console.log(await myPromise);
+//   } catch {
+//     throw new Error(`Oops didn't work`);
+//   } finally {
+//     console.log('Oh finally!');
+//   }
+// })();
+// A: Woah some cool data
+// B: Oh finally!
+// C: Woah some cool data Oh finally!
+// D: Oops didn't work Oh finally!
+=======>>>>>
