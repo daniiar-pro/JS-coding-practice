@@ -67,7 +67,7 @@
 // function reverse(arr) {
 //   // your code here
 //     let temp;
-//     for (let i=0; i<arr.length/2; i++){
+//     for (let i=0; ii++){
 //     temp=arr[i];
 //     arr[i]=arr[arr.length-1-i];
 //     arr[arr.length-1-i]=temp;
@@ -165,15 +165,11 @@
 // A: a and a
 // B: a and undefined
 // C: ['a', 'b', 'c'] and a
-// D: a and ['a', 'b', 'c']
-// // ============================>
-
+// Dature
 // 28) What's the output?
 // const name = 'Lydia Hallie';
-// const age = 21;
-
-// console.log(Number.isNaN(name));
-// console.log(Number.isNaN(age));
+// const age cons
+/ console.log(Number.isNaN(age));
 
 // console.log(isNaN(name));
 // console.log(isNaN(age));
@@ -214,3 +210,4 @@
 // B: Oh finally!
 // C: Woah some cool data Oh finally!
 // D: Oops didn't work Oh finally!
+=======>>>>>
